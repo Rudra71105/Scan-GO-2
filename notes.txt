@@ -1,0 +1,18 @@
+things i struggled with:
+
+- camera not opening (permissions issue??)
+- qr not detecting on laptop webcam properly
+- jsQR docs are kinda confusing at first
+
+ideas:
+
+- maybe add sound when scan happens
+- dark mode toggle? (already dark lol)
+
+bug:
+
+sometimes same QR shows again even with check
+need better logic maybe
+
+REMEMBER:
+test on phone more, works better there

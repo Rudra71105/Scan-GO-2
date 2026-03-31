@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan-Go</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #111;
+            color: #fff;
+        }
+
+        video {
+            width: 300px;
+            border: 2px solid #444;
+            margin-top: 20px;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            background: #222;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>QR Scanner</h2>
+
+    <video id="preview"></video>
+
+    <div id="output">
+        <!-- result shows here -->
+        waiting for scan...
+    </div>
+
+    <!-- added from CDN, hope it keeps working -->
+    <script src="https://unpkg.com/jsqr"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

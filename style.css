@@ -1,0 +1,17 @@
+/* idk why I made separate css if I still use inline styles in html 🤦 */
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* maybe use this later */
+.result-box {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* unused for now */
+.hidden {
+    display: none;
+}
